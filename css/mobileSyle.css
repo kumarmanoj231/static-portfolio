@@ -1,0 +1,159 @@
+
+@media screen and (max-width:920px) {
+    body{
+        background-color: #000;
+    }
+    .content{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+        background-color: #000;
+    }
+    .content-text{
+        color: #fff;
+    }
+    section{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+    }
+    .content-bottom{
+        flex-direction: column-reverse;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .content-left-portion{
+        width: 100%;
+        padding: 0;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+
+       
+    }
+    .content-right-portion{
+        width: 100%;
+        border-left: none;
+        
+    }
+    .content-box{
+        margin-top: 0;
+      
+    }
+    .right-info{
+        color: #ccc;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .intro-email{
+        display: none;
+    }
+    .right-btn{
+        background-color: #fff;
+    }
+    .job{
+        display: none;
+    }
+    .btn-sec-down{
+        color: #fff;
+        background-color: #000;
+        border: 2px solid !important;
+        margin-left: 1rem;
+    }
+    .btn-sec-down:hover{
+        background-color:chartreuse;
+        color: #000;
+    }
+
+    /* section2 */
+   .tab{
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: #fff;
+   }
+   .tab-text,.tab-info{
+    width: 100%;
+  padding: 0;
+    margin: 0;
+
+   }
+
+   .tab-text h3{
+    padding: 2rem;
+   }
+
+   .tab-text p{
+    padding: 1rem;
+   }
+
+   .tab-info p{
+    padding: 1rem;
+   }
+
+
+
+  .logo{
+    height: 120px;
+  }
+
+
+   .tab-text{
+    display: none;
+   
+   }
+   .tab-info{
+    background-color: #000;
+   }
+
+   #owner-name{
+    color: #fff;
+    font-size: 1.6rem;
+   }
+   .hide-mobile-card{
+    display:  flex !important;
+    align-items: center;
+    justify-content: center;
+   }
+  .feedback-form{
+    margin-top: 2rem;
+    background-color: #fff;
+  }
+  .content-btns{
+    display: none;
+  }
+
+  .cards{
+    flex-direction: column;
+  }
+  .cards .card{
+    width: 100%;
+    height: 100%;
+  }
+
+  .projects-tab{
+    flex-direction: column; 
+  }
+  .book{
+    width: 85%;
+    margin: 2rem auto;
+  }
+  .book-page{
+    padding: 3rem;
+    
+  }
+
+
+
+  
+  
+
+
+
+
+}

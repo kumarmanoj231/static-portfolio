@@ -1,0 +1,162 @@
+/* .card-education {
+width: 90%;
+height: 90%;
+border-radius: 8px;
+background: linear-gradient(145deg, #333, #000);
+display: flex;
+flex-direction: column;
+gap: 5px;
+padding: 0.8em;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+overflow: hidden;
+}
+
+.card-education p {
+flex: 1;
+overflow: hidden;
+cursor: pointer;
+border-radius: 8px;
+transition: flex 0.5s;
+
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform : uppercase;
+}
+
+.card-education p:hover {
+flex: 4;
+}
+
+.card-education p span {
+padding: 0.2em;
+text-align: center;
+transform: rotate(-0deg);
+transition: transform 0.5s;
+text-transform: uppercase;
+color: #fff;
+font-weight: "bold";
+letter-spacing: 0.1em;
+position: relative;
+z-index: 1;
+}
+
+.card-education p:hover span {
+transform: rotate(0);
+}
+
+.card-education p::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(255, 255, 255, 0.1);
+z-index: 0;
+transition: opacity 0.5s;
+pointer-events: none;
+opacity: 0;
+}
+
+.card-education p:hover::before {
+opacity: 1;
+}
+
+ */
+
+
+
+.card-container {
+    width: 100%;
+    
+    perspective: 1000px;
+}
+
+.edu-card {
+    width: 92%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, height 0.3s ease;
+    height: 200px;
+    cursor: pointer;
+    position: relative;
+    margin:auto;
+    background-color : #9d4edd;
+    
+
+}
+
+/* Initial content styles */
+.edu-card-content {
+    padding: 20px;
+    transition: opacity 0.3s ease;
+    
+}
+
+.edu-card-content span{
+    text-transform : uppercase;
+    color : #fff;
+    font-weight:bold;
+
+}
+
+/* Hidden content styles */
+.edu-card-hidden {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: ;
+    color: white;
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.edu-card-hidden p:nth-child(1){
+    color: #000;font-weight: bold;
+}
+
+/* Hover state */
+.edu-card:hover {
+    height: 300px;
+    transform: scale(1.05);
+}
+
+.edu-card:hover .edu-card-content {
+    opacity: 0.4;
+}
+
+.edu-card:hover .edu-card-hidden {
+    opacity: 1;
+    visibility: visible;
+}
+
+.education-completed{
+    background-color : springgreen !important;
+}
+
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .card-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-container {
+        width: 100%;
+    }
+}
