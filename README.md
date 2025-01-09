@@ -1,4 +1,5 @@
 # Static Portfolio  
+🔗 <a href="https://manojkumar-dev.netlify.app/" > Portfolio </a>
 
 A clean and responsive personal portfolio website built using HTML, CSS, and JavaScript.  
 
